@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Valdrak Ordering System
 
-## Getting Started
+Este proyecto nació como parte de mi camino de aprendizaje como desarrolladora Fullstack Junior.
+La idea era construir una aplicación simple pero real, que me permitiera integrar varias tecnologías modernas y entender cómo se conectan entre sí en un proyecto completo.
 
-First, run the development server:
+Valdrak Ordering System simula el flujo de pedidos dentro de una taberna ficticia llamada Valdrak. La aplicación permite crear pedidos desde una interfaz sencilla, visualizar los pedidos desde una vista de cocina y actualizar su estado a medida que avanza el proceso.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Para desarrollarlo utilicé Next.js con TypeScript, lo que me permitió trabajar con una estructura moderna de frontend y backend dentro del mismo proyecto. También integré MongoDB Atlas como base de datos para almacenar los pedidos y poder trabajar con datos persistentes.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Durante el desarrollo aparecieron varios desafíos interesantes. Uno de los principales fue la integración con MongoDB en la nube, donde tuve que configurar correctamente la conexión, las variables de entorno y los accesos de red del cluster. También surgieron algunos problemas relacionados con el tipado de TypeScript y las rutas dinámicas de Next.js, que me obligaron a investigar más a fondo la documentación y entender mejor cómo funciona el framework.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Algo que influyó mucho en la forma de trabajar este proyecto es que también tengo conocimientos en QA manual. Eso me llevó a prestar mucha atención a la validación de datos, al manejo de errores y a probar cada funcionalidad mientras la iba construyendo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Más allá de ser un ejercicio técnico, este proyecto fue una experiencia muy valiosa porque me permitió enfrentar problemas reales de desarrollo y resolverlos paso a paso. Me ayudó a entender mejor cómo se construye una aplicación fullstack y a ganar confianza trabajando con herramientas que hoy son muy utilizadas en el desarrollo web.
 
-## Learn More
+En futuras versiones me gustaría seguir mejorando el proyecto, agregando funcionalidades como actualizaciones en tiempo real, autenticación de usuarios y una interfaz más completa para la gestión de pedidos.
 
-To learn more about Next.js, take a look at the following resources:
+Este proyecto forma parte de mi proceso de aprendizaje continuo como desarrolladora, donde busco seguir creciendo, experimentando y construyendo nuevas ideas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### New Order
 
-## Deploy on Vercel
+<p align="center">
+  <img src="docs/new-order.png" width="800"/>
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Kitchen Dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<p align="center">
+  <img src="docs/kitchen.png" width="800"/>
+</p>
